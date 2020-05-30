@@ -10,6 +10,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	String home() {
+		System.out.println("Contoller calling");
 		return "Spring is here!";
 	}
 
